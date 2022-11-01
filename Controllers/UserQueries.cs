@@ -23,5 +23,9 @@ namespace Chat.Controllers
             return new User(id, "Johan", "Solbakken", "JohanEpost", "Passordet?", "Telefon", DateTime.Now, DateTime.Now);
         }
 
+        public int Tall() {
+            return 5;
+        }
+
     }
 }
