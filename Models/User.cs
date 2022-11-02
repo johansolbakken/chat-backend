@@ -1,5 +1,5 @@
 
-namespace Chat.Models
+namespace UserApi.Models
 {
     public record User(
         Guid Id,
