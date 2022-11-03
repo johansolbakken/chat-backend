@@ -8,6 +8,8 @@ namespace UserApi.Models
         string Email,
         string Password,
         string Telephone,
+        string Username,
+        string Role,
         DateTime CreatedAt,
         DateTime ModifiedAt
     );
